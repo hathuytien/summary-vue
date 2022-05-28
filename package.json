@@ -1,0 +1,30 @@
+{
+  "name": "summary-vue",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap-vue-3": "^0.1.13",
+    "jquery": "^3.6.0",
+    "swiper": "^7.4.1",
+    "vue": "^3.2.35",
+    "vue-awesome-swiper": "^5.0.1",
+    "vue-router": "^4.0.12",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-wow": "^1.2.0",
+    "vuex": "^4.0.2",
+    "wow.js": "^1.2.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "eslint": "^8.6.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "prettier": "^2.5.1",
+    "vite": "^2.7.2"
+  }
+}

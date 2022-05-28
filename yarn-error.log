@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add vue bootstrap bootstrap-vue
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Program Files\ImageMagick-7.0.8-Q16;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\HashiCorp\Vagrant\bin;C:\Program Files\Git\cmd;C:\Program Files\MongoDB\Server\3.6\bin;E:\DATA\apache-maven-3.5.4\bin;E:\DATA\spring-2.0.4.RELEASE\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\EmEditor;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Yarn\bin\;D:\Data\CLV\Tiger\chromedriver_win32;C:\Users\AZ\AppData\Roaming\nvm;C:\Program Files\nodejs;E:\DATA\Android\Sdk\platform-tools;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\dotnet\;C:\Program Files\nodejs\;C:\Users\mk\AppData\Local\Microsoft\WindowsApps;C:\Users\mk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mk\AppData\Local\GitHubDesktop\bin;C:\Users\mk\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\ThuyTien\Git\summary-vue-source\node_modules\esbuild-windows-64\esbuild.exe'
+
+npm manifest: 
+  {
+    "name": "summary-vue",
+    "version": "0.0.0",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "preview": "vite preview"
+    },
+    "dependencies": {
+      "animate.css": "^4.1.1",
+      "bootstrap": "^5.1.3",
+      "bootstrap-vue": "^2.22.0",
+      "jquery": "^3.6.0",
+      "swiper": "^7.4.1",
+      "vue": "^3.2.35",
+      "vue-router": "^4.0.12",
+      "vue-wow": "^1.2.0",
+      "vuex": "^4.0.2",
+      "wow.js": "^1.2.2"
+    },
+    "devDependencies": {
+      "@vitejs/plugin-vue": "^2.0.0",
+      "eslint": "^8.6.0",
+      "eslint-config-prettier": "^8.3.0",
+      "eslint-plugin-vue": "^8.2.0",
+      "prettier": "^2.5.1",
+      "vite": "^2.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

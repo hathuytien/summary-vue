@@ -1,0 +1,340 @@
+﻿.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+.banner .slick-dots {
+	position: absolute;
+	bottom:20px;
+	margin-left: auto;
+	margin-right: auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	left: 50%;
+	text-align: center;
+	transform: translateX(-50%);
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.banner .slick-dots li {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	margin: 0 8px;
+	border-radius:100%;
+}
+.banner .slick-dots li button {
+	background-color: #929497;
+	border: none;
+	width: 10px;
+	height: 10px;
+	text-indent: -9999px;
+	cursor: pointer;
+	border-radius:100%;
+	padding:0;
+	margin:0;
+}
+.banner .slick-dots li.slick-active button {
+	background-color: #404041;
+	border: none;
+}
+.product_slider .slick-slide,.product_bestseller .slick-slide{
+	margin: 0 15px;
+}
+#DanhMucSanPham h2{
+	text-align:left;
+}
+#DanhMucSanPham .nav-fl{
+	border:1px solid #ddd;
+	font-weight:bold;
+	color:#000;
+	position: relative;
+	z-index: 2;
+}
+#DanhMucSanPham .nav-fl .dropdown{
+	letter-spacing:0;
+	position:relative;
+}
+#DanhMucSanPham .nav-fl .dropdown:before{
+	position:absolute;
+	border-right:1px solid #aaa;
+	top:20px;
+	right:0;
+	content:"";
+	bottom:20px;
+}
+#DanhMucSanPham .nav-fl .dropdown:last-child:before{
+	position:absolute;
+	border-right:none;
+	top:0;
+	right:0;
+	content:"";
+	bottom:0;
+}
+#DanhMucSanPham .nav-fl .dropdown .dropbtn{
+	color:#555;
+	padding:20px;
+	display:block;
+}
+#DanhMucSanPham .nav-fl .dropdown .dropbtn:hover{
+	color:#c48c46;
+	text-decoration:none;
+}
+#DanhMucSanPham .nav-fl .dropdown:hover .dropdown-content{
+	display:block;
+}
+#SanPhamBanChay{
+	position:relative;
+}
+#SanPhamBanChay:before{
+	position:absolute;
+	content:"";
+	top:15%;
+	left:0;
+	right:0;
+	bottom:5%;
+	background: rgb(249,170,180);
+	background: linear-gradient(-30deg, rgba(249,170,180,1) 0%, rgba(190,30,45,1) 100%);
+}
+#SanPhamBanChay .bestseller{
+	background: rgb(255,255,255);
+	background: linear-gradient(145deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(196,140,70,1) 100%);
+	border-radius:15px;
+	-webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+	padding-top:40px;
+	padding-bottom:40px;
+	position: relative;
+}
+#SanPhamBanChay .bestseller h2{
+	font-size:19px;
+	color:#000;
+	font-weight:bold;
+	margin-bottom:20px;
+}
+#SanPhamBanChay .bestseller h4{
+	text-align: center;
+	font-style:italic;
+	font-size:14px;
+}
+#SanPhamBanChay .bestseller .photo{
+	width:80%;
+	margin:20px auto;
+}
+#SanPhamBanChay .product_bestseller{
+	padding: 10px;
+	margin: 0 0 -10px 0;
+}
+#SanPhamBanChay .product_bestseller .slick-list{
+	padding:20px 0;
+}
+#SanPhamBanChay  .bestseller{
+	display:block;
+}
+#SanPhamBanChay .sp-view{
+	display:none;
+}
+#SanPhamBanChay .item{
+	text-align:center;
+	padding-bottom:30px;
+	 border: 1px solid #eee;
+	 border-radius:15px;
+	 background:#fff;
+	 -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+	box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.5);
+}
+
+
+#SanPhamBanChay .item .photo {
+     border: none;
+    }
+	.product_bestseller .slick-next, .product_bestseller .slick-prev{
+		top:60%;
+	}
+	.product_bestseller .slick-next{
+		left:30px;
+	}
+	.product_bestseller .slick-prev{
+		right:30px;
+	}
+@media (min-width: 769px){
+	#SanPhamBanChay .product_bestseller{
+		padding-top:50px;
+	}
+}
+.bieudogiavang{
+	margin-bottom:20px;
+}
+.group_banner{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.group_banner li{
+	margin-bottom:20px;
+}
+.group_banner li:last-child{
+	margin-bottom:0px;
+}
+.group_banner li a{
+	display:block;
+}
+.group_banner li a img{
+	width:100%;
+}
+@media (max-width: 767px) {
+	#DanhMucSanPham h2{
+		text-align:center;
+	}
+	#DanhMucSanPham .nav-fl .dropdown{
+		display:block;
+		border-bottom:1px solid #ddd;
+	}
+	#DanhMucSanPham .nav-fl .dropdown:last-child{
+		border-bottom:none;
+	}
+	#DanhMucSanPham .nav-fl .dropdown:before{
+		/*border-right:none;*/
+	}
+	#DanhMucSanPham .nav-fl .dropdown .dropdown-content{
+		position:relative;
+		top:0;
+		left:0;
+		border-radius:0;
+		box-shadow:none;
+	}
+	#SanPhamBanChay .bestseller{
+		display:none;
+	}
+	#SanPhamBanChay .sp-view{
+		display:block;
+	}
+	#SanPhamBanChay:before{
+		position:absolute;
+		content:"";
+		top:15%;
+		left:0;
+		right:0;
+		bottom:5%;
+		background-color:transparent;
+		background: linear-gradient(-30deg, rgba(249,170,180,0) 0%, rgba(190,30,45,0) 100%);
+	}
+	.tintuc .photo{
+		margin-bottom: 20px;
+	}
+}
+.modal.in .modal-dialog {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 0px;
+}
+
+.text-soanthu::-webkit-input-placeholder {
+    color: #ddd;
+}
+
+.modal-header {
+    background-color: #0064a4;
+    border: none;
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+    .modal-header .close {
+        color: white;
+        opacity: 1;
+    }
+
+.modal-footer {
+    text-align: left;
+}
+
+button.close {
+    padding: 0 5px;
+}
+
+.Attach input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.FilePath label {
+    padding: 5px 10px;
+    background-color: #f7f9f9;
+    color: #0064a4
+}
+
+.FilePath .glyphicon-remove {
+    color: #555;
+    font-size: 12px
+}
+.traloi {
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 6px;
+    /*padding:20px;*/
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 20px 0px;
+}
+
+.traloi-header {
+    margin: 10px -20px;
+    border-bottom: 1px solid #eee;
+}
+
+.traloi-footer {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
+    border-top: 1px solid #eee;
+}
+
+@media screen and (max-width: 600px) { 
+    #myModal .modal-dialog {
+        top: 0px;
+        width: 100%;
+    }
+    .modal-header #FullScreen, .modal-header #Minimize {
+        display: none;
+    }
+    .Gui {
+        padding: 6px 12px !important;
+    }
+
+    #NguoiNhan {
+        width: 60% !important;
+    }
+    #DinhKemThu_Gui_ChuyenTiep .TapTin {
+        text-align: center;
+    }
+
+        #DinhKemThu_Gui_ChuyenTiep .TapTin p {
+            left: 32% !important;
+        }
+
+    #DinhKemThu_Gui_ChuyenTiep {
+        padding-left: 0px !important;
+    }
+
+    .traloi-header label, .traloi-header img {
+        display: none;
+    }
+}
