@@ -4,7 +4,7 @@ import Jewelry from "@/views/Jewelry.vue";
 
 const routes = [
   {
-    path: "/summary-vue-3",
+    path: "/summary-vue",
     name: "Home",
     component: Home,
   },
@@ -18,7 +18,7 @@ const routes = [
       import(/* webpackChunkName: "about" */ "@/views/About.vue"),
   },
   {
-    path: "/summary-vue-3/jewelry",
+    path: "/summary-vue/jewelry",
     name: "Jewelry",
     component: Jewelry
   },
