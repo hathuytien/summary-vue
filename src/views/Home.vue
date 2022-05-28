@@ -9,7 +9,7 @@
     <div class="row wrap">
       <div class="left">
         <div id="sec1" class="pb20">
-          <h2>Contact information sssss</h2>
+          <h2>Contact information</h2>
           <div class="info">
             <!-- eslint-disable-next-line -->
             <!-- prettier-ignore -->

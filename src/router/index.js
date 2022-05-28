@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "@/views/Home.vue";
-import Jewelry from "@/views/Jewelry.vue";
+// import Jewelry from "@/views/Jewelry.vue";
 
 const routes = [
   {
@@ -20,7 +20,8 @@ const routes = [
   {
     path: "/summary-vue/jewelry",
     name: "Jewelry",
-    component: Jewelry
+    component: () =>
+      import(/* webpackChunkName: "about" */ "@/views/Jewelry.vue"),
   },
 ];
 

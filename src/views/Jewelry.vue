@@ -39,11 +39,11 @@
 	<m-swiper
         :imgUrls="imgSlide"
     />-->
-	<!-- <swiper class="swiper" :loop="true" :autoplay="{ delay: 3500, disableOnInteraction: false }" :modules="modules" :pagination="{ clickable: true }">
+	<swiper class="swiper" :loop="true" :autoplay="{ delay: 3500, disableOnInteraction: false }" :modules="modules" :pagination="{ clickable: true }">
 		<swiper-slide class="slide" v-for="(ite, index) in imgSlide" :key="index">
 			<img :src="ite" />
 		</swiper-slide>
-	</swiper> -->
+	</swiper>
     </div>
 	<div class="clearfix" style="margin-top:10px;margin-bottom:10px;"></div>
     <div class="container">
@@ -136,7 +136,7 @@
 					<p class="photo"><img src="/images/jewelry/IMG2.png" style="width:100%" /></p>
 					<button class="btn-view">Khám phá ngay</button>
 				</div>
-				<!-- <swiper
+				<swiper
 				class="swiper product_bestseller col-lg-9 col-md-6 col-sm-12 col-12"
 				:modules="modules"
 				direction="horizontal"
@@ -152,7 +152,7 @@
 					<p class="id_product">{{item.id_product}}</p>
 					<p class="name_product">{{item.name}}</p>
 				</swiper-slide>
-			</swiper> -->
+			</swiper>
 			</div>
 			</div>
 		</div>
@@ -160,7 +160,7 @@
 		 <div class="container">
 		 <div id="SanPhamTieuBieu">
 			<h2><span>SẢN TIÊU BIỂU</span></h2>
-			<!-- <swiper
+			<swiper
 				class="swiper product_slider"
 				:modules="modules"
 				direction="horizontal"
@@ -176,7 +176,7 @@
 					<p class="id_product">{{item.id_product}}</p>
 					<p class="name_product">{{item.name}}</p>
 				</swiper-slide>
-			</swiper> -->
+			</swiper>
 		</div>
 		 <div class="clearfix" style="margin-top:30px;margin-bottom:30px;"></div>
 		 <div id="TinTuc">
@@ -256,12 +256,12 @@ import { ref, reactive, onBeforeUpdate, watchEffect } from 'vue';
 import WOW from "wow.js";
 // import BootstrapVue3 from "bootstrap-vue-3";
 //import "bootstrap/dist/css/bootstrap.css";
-//import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
+import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
 // app.use(BootstrapVue3);
 
 // Import Swiper Vue.js components
 import { Pagination, Navigation } from 'swiper'
-// import { Swiper, SwiperSlide } from 'swiper/vue';
+import { Swiper, SwiperSlide } from 'swiper/vue';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -270,6 +270,8 @@ import 'swiper/css/navigation';
 export default {
   name: "jewelry",
   components: { 
+	Swiper,
+    SwiperSlide,
   },
   setup() {
     return {
