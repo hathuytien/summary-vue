@@ -256,7 +256,9 @@ import { ref, reactive, onBeforeUpdate, watchEffect } from 'vue';
 import WOW from "wow.js";
 // import BootstrapVue3 from "bootstrap-vue-3";
 //import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
+// import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 // app.use(BootstrapVue3);
 
 // Import Swiper Vue.js components
